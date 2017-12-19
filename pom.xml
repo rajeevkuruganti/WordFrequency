@@ -1,0 +1,46 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>WordFrequency</groupId>
+  <artifactId>WordFrequency</artifactId>
+  <version>1.2</version>
+  <name>Word Frequency v1.2 by 4 Circles LLC</name>
+  <build>
+    <sourceDirectory>src</sourceDirectory>
+    <resources>
+      <resource>
+        <directory>src</directory>
+        <excludes>
+          <exclude>**/*.java</exclude>
+        </excludes>
+      </resource>
+    </resources>
+  </build>
+  <dependencies>
+  	<dependency>
+  		<groupId>ant</groupId>
+  		<artifactId>ant-apache-log4j</artifactId>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.swinglabs</groupId>
+  		<artifactId>swing-layout</artifactId>
+  	</dependency>
+  </dependencies>
+  <dependencyManagement>
+  	<dependencies>
+  		<dependency>
+  			<groupId>org.swinglabs</groupId>
+  			<artifactId>swing-layout</artifactId>
+  			<version>1.0.3</version>
+  		</dependency>
+  		<dependency>
+  			<groupId>ant</groupId>
+  			<artifactId>ant-apache-log4j</artifactId>
+  			<version>1.6.5</version>
+  		</dependency>
+  	</dependencies>
+  </dependencyManagement>
+  <url>http://www.4circlesllc.com</url>
+  <organization>
+  	<name>4 Circles LLC</name>
+  </organization>
+</project>
